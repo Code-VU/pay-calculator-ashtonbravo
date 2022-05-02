@@ -1,6 +1,11 @@
 def calculatePay():
     # Implement your solution in between the two comment blocks
     print("calculating pay")
+        hrs = input("Enter Hours:")
+        rate = input("Enter Rate:")
+        grossPay = hrs * rate
+        Print (grossPay)
+        
     # This first line is provided for you
     
 hrs = input("Enter Hours:")
